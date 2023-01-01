@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Plaza Najosa F.S.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    </head>
+
+
+    <body>
+        <div id="logoYMenu" class="row container-fluid col-lg-12">
+            <aside id="logo" class="col-lg-3 p-4 d-flex justify-content-center">
+                <a class="nav-link" href="index.html">
+                <img src="./images/escudo.png" alt="Escudo Plaza Najosa F.S." style="width:260px;height:360px;">
+                </a>
+            </aside>
+            <nav class="navbar col-lg-9 d-flex justify-content-center">
+                <a class="nav-link text-center col-lg-2" href="noticias.html">
+                    <button type="button" class="btn btn-outline-warning navegacion">Noticias</button>
+                </a>
+                <a class="nav-link text-center col-lg-2" href="clasificacion.html">
+                    <button type="button" class="btn btn-outline-warning navegacion">Clasificación</button>
+                </a>
+                <a class="nav-link text-center col-lg-2" href="plantilla.html">
+                    <button type="button" class="btn btn-outline-warning navegacion">Plantilla</button>
+                </a>
+                <a class="nav-link text-center col-lg-2" href="galeria.html">
+                    <button type="button" class="btn btn-outline-warning navegacion">Galería</button>
+                </a>
+                <a class="nav-link text-center col-lg-2" href="estadisticas.html">
+                    <button type="button" class="btn btn-outline-warning navegacion">Estadísticas</button>
+                </a>
+                <a class="nav-link text-center col-lg-2" href="redessociales.html">
+                    <button type="button" class="btn btn-outline-warning navegacion">RRSS</button>
+                </a>
+            </nav>
+        </div>
+
+        <main>
+            <!-- Tabla de goleadores (faltaría tabla de juego limpio cuando la acutalicen). -->
+            <div class="container mx-auto">
+                <p class="navegacion fondonegro">GOLEADORES &#9917;</p>
+                <table id="goleadores" class="table">
+                    <thead>
+                      <tr class="table-primary">
+                        <th scope="col">Pos</th>
+                        <th scope="col">Jugador</th>
+                        <th scope="col">Equipo</th>
+                        <th scope="col">Gol</th>
+                        <th scope="col">Par</th>
+                        <th scope="col">Med</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr id="primero" class="table-success">
+                        <th scope="row"><img src="./images/numeros/1.png" alt="1" style="width:50px;height:50px;"></th>
+                        <td class="protagonistas d-none d-md-table-cell">EDUARDO JOSE FERNANDEZ JARDON</td>
+                        <td class="protagonistas d-lg-none">EDUARDO</td>
+                        <td><img src="./images/equipos/valdes.jpg" alt="CV" style="width:50px;height:50px;"></td>
+                        <td class="puntos">22</td>
+                        <td>9</td>
+                        <td>2.44</td>
+                      </tr>
+                      <tr id="segundo" class="table-info">
+                        <th scope="row"><img src="./images/numeros/2.png" alt="2" style="width:50px;height:50px;"></th>
+                        <td class="protagonistas d-none d-md-table-cell">SAUL CUESTA REDONDO</td>
+                        <td class="protagonistas d-lg-none">SAUL</td>
+                        <td><img src="./images/equipos/najosa.jpg" alt="PN" style="width:50px;height:50px;"></td>
+                        <td class="puntos">16</td>
+                        <td>9</td>
+                        <td>2.29</td>
+                      </tr>
+                      <tr id="tercero" class="table-light">
+                        <th scope="row"><img src="./images/numeros/3.png" alt="3" style="width:50px;height:50px;"></th>
+                        <td class="protagonistas d-none d-md-table-cell">DARIO ALVAREZ RODRIGUEZ</td>
+                        <td class="protagonistas d-lg-none">DARIO</td>
+                        <td><img src="./images/equipos/cucao.jpg" alt="SC" style="width:50px;height:50px;"></td>
+                        <td class="puntos">12</td>
+                        <td>9</td>
+                        <td>1.33</td>
+                      </tr>
+                      <tr id="cuarto" class="table-light">
+                        <th scope="row"><img src="./images/numeros/4.png" alt="4" style="width:50px;height:50px;"></th>
+                        <td class="protagonistas d-none d-md-table-cell">IZAN SOLIS SENDARRUBIAS</td>
+                        <td class="protagonistas d-lg-none">IZAN</td>
+                        <td><img src="./images/equipos/mieres.jpg" alt="RM" style="width:50px;height:50px;"></td>
+                        <td class="puntos">12</td>
+                        <td>9</td>
+                        <td>1.33</td>
+                      </tr>
+                      <tr id="quinto" class="table-light">
+                        <th scope="row"><img src="./images/numeros/5.png" alt="5" style="width:50px;height:50px;"></th>
+                        <td class="protagonistas d-none d-md-table-cell">JOSUE CUERVO LOGEDO</td>
+                        <td class="protagonistas d-lg-none">JOSUE</td>
+                        <td><img src="./images/equipos/mieres.jpg" alt="RM" style="width:50px;height:50px;"></td>
+                        <td class="puntos">10</td>
+                        <td>8</td>
+                        <td>1.25</td>
+                      </tr>
+                      <tr id="sexto" class="table-light">
+                        <th scope="row"><img src="./images/numeros/6.png" alt="6" style="width:50px;height:50px;"></th>
+                        <td class="protagonistas d-none d-md-table-cell">VICTOR JULIAN GARCIA FIDALGO</td>
+                        <td class="protagonistas d-lg-none">VICTOR</td>
+                        <td><img src="./images/equipos/rodiles.jpg" alt="R" style="width:50px;height:50px;"></td>
+                        <td class="puntos">10</td>
+                        <td>9</td>
+                        <td>1.11</td>
+                      </tr>
+                      <tr id="septimo" class="table-light">
+                        <th scope="row"><img src="./images/numeros/7.png" alt="7" style="width:50px;height:50px;"></th>
+                        <td class="protagonistas d-none d-md-table-cell">ROBERTO VILLA GONZALES</td>
+                        <td class="protagonistas d-lg-none">ROBERTO</td>
+                        <td><img src="./images/equipos/mieres.jpg" alt="RM" style="width:50px;height:50px;"></td>
+                        <td class="puntos">9</td>
+                        <td>9</td>
+                        <td>1</td>
+                      </tr>
+                      <tr id="octavo" class="table-light">
+                        <th scope="row"><img src="./images/numeros/8.png" alt="8" style="width:50px;height:50px;"></th>
+                        <td class="protagonistas d-none d-md-table-cell">MARCO MORENO FERNANDEZ</td>
+                        <td class="protagonistas d-lg-none">MARCO</td>
+                        <td><img src="./images/equipos/playas.jpg" alt="GPL" style="width:50px;height:50px;"></td>
+                        <td class="puntos">9</td>
+                        <td>9</td>
+                        <td>1</td>
+                      </tr>
+                      <tr id="noveno" class="table-light">
+                        <th scope="row"><img src="./images/numeros/9.png" alt="9" style="width:50px;height:50px;"></th>
+                        <td class="protagonistas d-none d-md-table-cell">HUGO MARCOS FERNANDEZ</td>
+                        <td class="protagonistas d-lg-none">HUGO</td>
+                        <td><img src="./images/equipos/perchera.jpg" alt="GPR" style="width:50px;height:50px;"></td>
+                        <td class="puntos">9</td>
+                        <td>9</td>
+                        <td>1</td>
+                      </tr>
+                      <tr id="decimo" class="table-light">
+                        <th scope="row"><img src="./images/numeros/10.png" alt="10" style="width:50px;height:50px;"></th>
+                        <td class="protagonistas d-none d-md-table-cell">JUAN VALLE CARRASCO</td>
+                        <td class="protagonistas d-lg-none">JUAN</td>
+                        <td><img src="./images/equipos/playas.jpg" alt="GPL" style="width:50px;height:50px;"></td>
+                        <td class="puntos">9</td>
+                        <td>9</td>
+                        <td>1</td>
+                      </tr>
+                      <tr id="decimo" class="table-light">
+                        <th scope="row"><img src="./images/numeros/11.png" alt="11" style="width:50px;height:50px;"></th>
+                        <td class="protagonistas d-none d-md-table-cell">ALEJANDRO URCERA FUENTES</td>
+                        <td class="protagonistas d-lg-none">ALEX</td>
+                        <td><img src="./images/equipos/najosa.jpg" alt="PN" style="width:50px;height:50px;"></td>
+                        <td class="puntos">9</td>
+                        <td>9</td>
+                        <td>1</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <p></p>
+        
+        <footer>
+            <div id="footer" class="col-lg12">
+                <div id="escudofooter" class="col-lg4 d-flex justify-content-center">
+                   <img src="./images/escudo.png" alt="Escudo Plaza Najosa F.S." style="width:50px;height:70px;">  
+                </div>
+                
+                <div id="politicasfooter" class="col-lg4 d-flex justify-content-center">
+                    <a class="nav-link active opinion" href="opinion.html">Opina sobre nuestra página web AQUÍ</a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

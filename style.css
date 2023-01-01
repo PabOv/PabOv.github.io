@@ -1,0 +1,168 @@
+body {
+    background-image: url("./images/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondoamarillo {
+    background-color: #D4AC0D;
+}
+
+.fondonegro {
+    background-color: #000000;
+}
+
+.textoamarillo {
+    color: #F9E70A;
+}
+
+.textbarrio {
+    font-family: "Barrio";
+    font-size: 20px;
+}
+
+.textbangers {
+    font-family: "Bangers";
+    font-size: 20px;
+}
+
+.texto {
+    font-family: "Aclonica";
+    font-size: 18px;
+}
+
+.neon {
+    text-align: center;
+    font-family: "Bangers";
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 0 0 5px yellow, 0 0 15px yellow, 0 0 30px yellow, 0 0 50px yellow;
+}
+
+.navegacion {
+    color: white;
+    text-align: center;
+    font-family: "Bangers";
+    margin: 0;
+    font-size: 30px;
+    text-shadow: 0 0 5px yellow, 0 0 15px yellow;
+}
+
+.puntos {
+    color: tomato;
+    font-weight: bolder;
+    text-shadow: 0 0 1px red;
+}
+
+.nombre {
+    text-decoration: underline;
+    font-family: "Bangers";
+    font-size: 20px;
+}
+
+.posicion {
+    color: #F8E500;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.negrita {
+    font-size: 16px;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+
+.protagonistas {
+    font-size: 20px;
+    color: #FDFFB2;
+    font-family: "Aclonica";
+    margin: 0;
+    text-shadow: 0 0 5px black, 0 0 15px black;
+}
+
+.facebook {
+    font-size: 35px;
+    color: #2888D3;
+    font-family: "Bangers";
+    margin: 0;
+    text-shadow: 0 0 5px white, 0 0 15px white;
+}
+
+.instagram {
+    font-size: 35px;
+    color: #E708AA;
+    font-family: "Bangers";
+    margin: 0;
+    text-shadow: 0 0 5px white, 0 0 15px white;
+}
+
+.twitter {
+    font-size: 35px;
+    color: #0BB4F9;
+    font-family: "Bangers";
+    margin: 0;
+    text-shadow: 0 0 5px white, 0 0 15px white;
+}
+
+.astursala {
+    font-size: 35px;
+    color: #D3B000;
+    font-family: "Bangers";
+    margin: 0;
+    text-shadow: 0 0 5px white, 0 0 15px white;
+}
+
+.asturfutbol {
+    font-size: 35px;
+    color: #E81F0E;
+    font-family: "Bangers";
+    margin: 0;
+    text-shadow: 0 0 5px white, 0 0 15px white;
+}
+
+.opinion {
+    font-size: 18px;
+    color: #000000;
+    font-family: "Bangers";
+    margin: 0;
+    text-shadow: 0 0 5px white, 0 0 15px white;
+}
+
+.tituloform {
+    font-size: 30px;
+    color: #000000;
+    font-family: "Aclonica";
+    margin: 0;
+    text-shadow: 0 0 5px white, 0 0 15px white;
+}
+
+.textoform {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: "Aclonica";
+    margin: 0;
+    font-weight: bolder;
+    text-shadow: 0 0 5px black, 0 0 15px black;
+}
+
+.opcionesform {
+    font-size: 15px;
+    color: #000000;
+    font-family: "Aclonica";
+    margin: 0;
+    font-weight: bolder;
+    text-shadow: 0 0 5px yellow, 0 0 15px yellow;
+}
+
+.textodcha {
+    text-align: right;
+}
+
+.textopartidos {
+    font-size: 10px;
+    color: #000000;
+    font-family: "Aclonica";
+    margin: 0;
+    font-weight: bolder;
+    text-shadow: 0 0 5px white, 0 0 15px white;
+}

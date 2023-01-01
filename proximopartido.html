@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Plaza Najosa F.S.</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    </head>
+
+
+    <body>
+        <!-- Botones superiores de navegación -->
+        <div id="logoYMenu" class="row container-fluid col-lg-12">
+            <aside id="logo" class="col-lg-3 p-4 d-flex justify-content-center">
+                <a class="nav-link" href="index.html">
+                <img src="./images/escudo.png" alt="Escudo Plaza Najosa F.S." style="width:260px;height:360px;">
+                </a>
+            </aside>
+            <nav class="navbar col-lg-9 d-flex justify-content-center">
+                <a class="nav-link text-center col-lg-2" href="noticias.html">
+                    <button type="button" class="btn btn-outline-warning navegacion">Noticias</button>
+                </a>
+                <a class="nav-link text-center col-lg-2" href="clasificacion.html">
+                    <button type="button" class="btn btn-outline-warning navegacion">Clasificación</button>
+                </a>
+                <a class="nav-link text-center col-lg-2" href="plantilla.html">
+                    <button type="button" class="btn btn-outline-warning navegacion">Plantilla</button>
+                </a>
+                <a class="nav-link text-center col-lg-2" href="galeria.html">
+                    <button type="button" class="btn btn-outline-warning navegacion">Galería</button>
+                </a>
+                <a class="nav-link text-center col-lg-2" href="estadisticas.html">
+                    <button type="button" class="btn btn-outline-warning navegacion">Estadísticas</button>
+                </a>
+                <a class="nav-link text-center col-lg-2" href="redessociales.html">
+                    <button type="button" class="btn btn-outline-warning navegacion">RRSS</button>
+                </a>
+            </nav>
+        </div>
+
+        <main>
+            <!-- Calendario -->
+            <div class="container col-lg-12">
+                <a class="nav-link col-lg-12 rounded border border-warning border-3 pt-3" href="https://astursala.es/3-division-rfef-futsal-asturias/grupo-5">
+                <section>
+                    <h2 class="neon">Próxima Jornada</h2>
+                    <table id="clasificacion" class="table">
+                    <thead>
+                      <tr class="table-primary negrita">
+                        <th scope="col">Jornada</th>
+                        <th scope="col">Local</th>
+                        <th scope="col"></th>
+                        <th scope="col">Visitante</th>
+                        <th class="d-none d-md-table-cell" scope="col">Ubicación</th>
+                        <th class="d-none d-md-table-cell" scope="col">Fecha</th>
+                        <th scope="col">Hora</th>
+                      </tr>
+                    </thead>
+                    
+                    <tbody>
+                      <tr id="uno" class="table-success negrita">
+                        <th scope="row">10</th>
+                        <td class="textodcha d-none d-md-table-cell">C.D. Gijón Playas F.S. <img src="./images/equipos/playas.jpg" alt="GPL" style="width:50px;height:50px;"></td>
+                        <td class="d-lg-none mx-auto d-flex justify-content-center"> <img src="./images/equipos/playas.jpg" alt="GPL" style="width:50px;height:50px;"></td>
+                        <td>&#127386;</td>
+                        <td class="d-none d-md-table-cell"><img src="./images/equipos/franco.jpg" alt="FR" style="width:50px;height:50px;"> El Franco F.S.</td>
+                        <td class="d-lg-none mx-auto d-flex justify-content-center"><img src="./images/equipos/franco.jpg" alt="FR" style="width:50px;height:50px;"></td>
+                        <td class="d-none d-md-table-cell">Polideportivo del Llano &#128205;</td>
+                        <td class="d-none d-md-table-cell">Sábado 07 Enero, 2023</td>
+                        <td class="text-center">Por determinar</td>
+                      </tr>
+                      
+                      <tr id="dos" class="table-success negrita">
+                        <th scope="row">10</th>
+                        <td class="textodcha d-none d-md-table-cell">Fútbol Sala Boal <img src="./images/equipos/boal.jpg" alt="B" style="width:50px;height:50px;"></td>
+                        <td class="d-lg-none mx-auto d-flex justify-content-center"> <img src="./images/equipos/boal.jpg" alt="B" style="width:50px;height:50px;"></td>
+                        <td>&#127386;</td>
+                        <td class="d-none d-md-table-cell"><img src="./images/equipos/perchera.jpg" alt="GPR" style="width:50px;height:50px;"> C.D. Gijón Perchera F.S.</td>
+                        <td class="d-lg-none mx-auto d-flex justify-content-center"> <img src="./images/equipos/perchera.jpg" alt="GPR" style="width:50px;height:50px;"></td>
+                        <td class="d-none d-md-table-cell">Polideportivo de Boal &#128205;</td>
+                        <td class="d-none d-md-table-cell">Sábado 07 Enero, 2023</td>
+                        <td class="text-center">Por determinar</td>
+                      </tr>
+                      
+                      <tr id="tres" class="table-success negrita">
+                        <th scope="row">10</th>
+                        <td class="textodcha d-none d-md-table-cell">Club Concejo Valdés <img src="./images/equipos/valdes.jpg" alt="CV" style="width:50px;height:50px;"></td>
+                         <td class="d-lg-none mx-auto d-flex justify-content-center"> <img src="./images/equipos/valdes.jpg" alt="CV" style="width:50px;height:50px;"></td>
+                        <td>&#127386;</td>
+                        <td class="d-none d-md-table-cell"><img src="./images/equipos/cucao.jpg" alt="SC" style="width:50px;height:50px;"> San Cucao F.S.</td>
+                         <td class="d-lg-none mx-auto d-flex justify-content-center"> <img src="./images/equipos/cucao.jpg" alt="SC" style="width:50px;height:50px;"></td>
+                        <td class="d-none d-md-table-cell">Polideportivo de Luarca &#128205;</td>
+                        <td class="d-none d-md-table-cell">Sábado 07 Enero, 2023</td>
+                        <td class="text-center">18:00</td>
+                      </tr>
+                      
+                      <tr id="cuatro" class="table-success negrita">
+                        <th scope="row">10</th>
+                        <td class="textodcha d-none d-md-table-cell">Rodiles F.S. <img src="./images/equipos/rodiles.jpg" alt="R" style="width:50px;height:50px;"></td>
+                         <td class="d-lg-none mx-auto d-flex justify-content-center"> <img src="./images/equipos/rodiles.jpg" alt="R" style="width:50px;height:50px;"></td>
+                        <td>&#127386;</td>
+                        <td class="d-none d-md-table-cell"><img src="./images/equipos/mieres.jpg" alt="RM" style="width:50px;height:50px;"> Racing de Mieres F.S.</td>
+                         <td class="d-lg-none mx-auto d-flex justify-content-center"> <img src="./images/equipos/mieres.jpg" alt="RM" style="width:50px;height:50px;"></td>
+                        <td class="d-none d-md-table-cell">Polideportivo Municipal Manuel Busto &#128205;</td>
+                        <td class="d-none d-md-table-cell">Sábado 07 Enero, 2023</td>
+                        <td class="text-center">18:15</td>
+                      </tr>
+                      
+                      <tr id="cinco" class="table-success negrita">
+                        <th scope="row">10</th>
+                        <td class="textodcha d-none d-md-table-cell">Boliches F.S. B <img src="./images/equipos/boliches.jpg" alt="BL" style="width:50px;height:50px;"></td>
+                         <td class="d-lg-none mx-auto d-flex justify-content-center"> <img src="./images/equipos/boliches.jpg" alt="B" style="width:50px;height:50px;"></td>
+                        <td>&#127386;</td>
+                        <td class="d-none d-md-table-cell"><img src="./images/equipos/najosa.jpg" alt="PN" style="width:50px;height:50px;"> Plaza Najosa F.S.</td>
+                         <td class="d-lg-none mx-auto d-flex justify-content-center"> <img src="./images/equipos/najosa.jpg" alt="PN" style="width:50px;height:50px;"></td>
+                        <td class="d-none d-md-table-cell">Polideportivo de Ventanielles &#128205;</td>
+                        <td class="d-none d-md-table-cell">Sábado 07 Enero, 2023</td>
+                        <td class="text-center">18:30</td>
+                      </tr>
+                      
+                      <tr id="seis" class="table-success negrita">
+                        <th scope="row">10</th>
+                        <td class="textodcha d-none d-md-table-cell">Puente Legends F.S. <img src="./images/equipos/legends.jpg" alt="PL" style="width:50px;height:50px;"></td>
+                         <td class="d-lg-none mx-auto d-flex justify-content-center"> <img src="./images/equipos/legends.jpg" alt="PL" style="width:50px;height:50px;"></td>
+                        <td>&#127386;</td>
+                        <td class="d-none d-md-table-cell"><img src="./images/equipos/manzaneda.jpg" alt="AM" style="width:50px;height:50px;"> Arenas de Manzaneda C.D.</td>
+                         <td class="d-lg-none mx-auto d-flex justify-content-center"> <img src="./images/equipos/manzaneda.jpg" alt="AM" style="width:50px;height:50px;"></td>
+                        <td class="d-none d-md-table-cell">Polideportivo de Lugones &#128205;</td>
+                        <td class="d-none d-md-table-cell">Domingo 08 Enero, 2023</td>
+                        <td class="text-center">12:00</td>
+                      </tr>
+                      
+                    </tbody>
+                    </table>
+                </section>
+                </a>
+            </div>
+        </main>
+        <br>     
+        <footer>
+            <!-- Footer -->
+            <div id="footer" class="col-lg12">
+                <div id="escudofooter" class="col-lg4 d-flex justify-content-center">
+                   <img src="./images/escudo.png" alt="Escudo Plaza Najosa F.S." style="width:50px;height:70px;">  
+                </div>
+                
+                <div id="politicasfooter" class="col-lg4 d-flex justify-content-center">
+                    <a class="nav-link active opinion" href="opinion.html">Opina sobre nuestra página web AQUÍ</a>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
